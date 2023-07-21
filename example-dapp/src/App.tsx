@@ -1,8 +1,3 @@
-/**
- * @DEV: If the sandbox is throwing dependency errors, chances are you need to clear your browser history.
- * This will trigger a re-install of the dependencies in the sandbox – which should fix things right up.
- * Alternatively, you can fork this sandbox to refresh the dependencies manually.
- */
 import React, { useState, useCallback, useEffect, useMemo } from 'react';
 import styled from 'styled-components';
 import { useWallet, useConnection, WalletProvider, ConnectionProvider } from '@solana/wallet-adapter-react';
